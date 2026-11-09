@@ -39,6 +39,9 @@ map; publishing to npm comes later.
 
 ## Decisions so far
 
+- [Does NeverScript's grammar cover every construct in THUG2 and THUG Pro scripts?](issues/01-neverscript-grammar-coverage.md): upstream no; Revert's fork nearly, gaps in counted loops and THUG Pro line markers; `elseif` isn't needed
+- [Which repo is Revert's NeverScript fork, what's its licence, and does it decompile?](issues/02-revert-neverscript-fork.md): violetvandal/NeverScript, no licence (mostly byxor's code), THUG2-only decompiler, short of byte-identical
+
 ## Not yet specified
 
 - nsqb's public API (hangs on what it builds on).
